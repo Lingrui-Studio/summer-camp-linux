@@ -1,0 +1,50 @@
+INFO: starting training job
+INFO: loading configuration from configs/train.yaml
+WARNING: cache directory is nearly full
+Epoch 1 Loss: 1.842
+ERROR: failed to read sample 004
+INFO: skipped unreadable sample 004
+WARNING: dataloader worker restarted
+Epoch 2 Loss: 1.563
+ERROR: failed to read sample 017
+INFO: continuing with remaining samples
+WARNING: batch loading is slower than expected
+Epoch 3 Loss: 1.392
+ERROR: temporary checkpoint write failure
+INFO: retrying checkpoint save
+INFO: checkpoint saved successfully
+WARNING: CPU utilization is high
+Epoch 4 Loss: 1.221
+ERROR: failed to decode sample 031
+INFO: skipped unreadable sample 031
+WARNING: input queue is almost empty
+Epoch 5 Loss: 1.084
+ERROR: transient file access error
+INFO: file access recovered
+WARNING: logging buffer is busy
+Epoch 6 Loss: 0.973
+ERROR: failed to parse sample 044
+INFO: skipped unreadable sample 044
+WARNING: dataloader is slow
+ERROR: checkpoint verification failed once
+INFO: checkpoint verification passed after retry
+Epoch 7 Loss: 0.881
+WARNING: GPU utilization is lower than expected
+ERROR: failed to read sample 052
+INFO: skipped unreadable sample 052
+Epoch 8 Loss: 0.803
+ERROR: temporary output directory access failure
+WARNING: output filesystem response is slow
+INFO: output directory access recovered
+Epoch 9 Loss: 0.742
+ERROR: failed to decode sample 063
+WARNING: retry queue length is increasing
+INFO: retry queue processed
+ERROR: failed to read sample 071
+Epoch 10 Loss: 0.691
+WARNING: final checkpoint save is slower than expected
+ERROR: first final checkpoint save attempt failed
+INFO: retrying final checkpoint save
+ERROR: metadata write failed once
+WARNING: metadata write retry started
+INFO: training job finished
